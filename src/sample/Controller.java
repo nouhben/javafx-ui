@@ -163,7 +163,7 @@ public class Controller implements Initializable {
         transmission.selectedToggleProperty().addListener(
                 (observable, oldValue, newValue) -> {
                     //get the radio button selected here
-                    JFXRadioButton rb = (JFXRadioButton)(typeConduct.getSelectedToggle());
+                    JFXRadioButton rb = (JFXRadioButton)(transmission add.getSelectedToggle());
                     if(rb != null) {
                         System.out.println(rb.getText());
                         transmissionErr.setText("");
