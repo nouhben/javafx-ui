@@ -3,22 +3,17 @@ package sample;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXRadioButton;
-import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
-import javafx.scene.control.Toggle;
 import javafx.scene.control.ToggleGroup;
 
 import java.net.URL;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
-public class Controller implements Initializable {
+public class MainAppController implements Initializable {
 
     @FXML
     private JFXComboBox<String> marqueID;
@@ -28,15 +23,13 @@ public class Controller implements Initializable {
 
     @FXML
     private JFXButton confirmBtn;
-
+    @FXML
+    private JFXButton fermerBtn;
     @FXML
     private Label color1Err;
 
     @FXML
     private JFXComboBox<String> modelID;
-
-    @FXML
-    private Label portsErr;
 
     @FXML
     private Label modelErr;
@@ -63,9 +56,6 @@ public class Controller implements Initializable {
     private Label conductTypeErr;
 
     @FXML
-    private Label anneeErr1;
-
-    @FXML
     private JFXComboBox<String> fuelTypeID;
 
     @FXML
@@ -76,9 +66,6 @@ public class Controller implements Initializable {
 
     @FXML
     private JFXComboBox<String> color2ID;
-
-    @FXML
-    private ToggleGroup ports1;
 
     @FXML
     private JFXComboBox<String> yearID;
@@ -126,7 +113,9 @@ public class Controller implements Initializable {
                     marqueErr.setText("");
                 }
         );
+
         initYears();
+
         yearID.setOnAction(event -> yearErr.setText(""));
 
         initVoitures(voitures);
@@ -194,7 +183,7 @@ public class Controller implements Initializable {
 
     //***
     @FXML
-    void confirm(ActionEvent event) {
+    private void confirm(ActionEvent event) {
         //let's check if the user selected everything
         if (this.marqueID.getSelectionModel().getSelectedIndex() == -1){
             this.marqueErr.setText("select a mark");
@@ -241,6 +230,11 @@ public class Controller implements Initializable {
         }
 
         confirmBtn.getParent().setStyle("-fx-background-color: rgba(12,108,244,0.6)");
+    }
+
+    @FXML
+    void handleFermerBtn(ActionEvent event){
+        MainApp.getScreenController().activate("screen2");
     }
 
 }

@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainAppController">
     <top>
         <MenuBar BorderPane.alignment="CENTER">
             <menus>
@@ -117,6 +117,11 @@
                 <JFXComboBox fx:id="yearID" layoutX="300.0" layoutY="170.0" prefHeight="30.0" prefWidth="250.0" promptText="--choisir une modele --" />
                 <Label fx:id="color2Err" layoutX="503.0" layoutY="270.0" prefHeight="20.0" prefWidth="168.0" style="-fx-text-fill: #FF00FF;" />
                 <Label fx:id="transmissionErr" layoutX="300.0" layoutY="565.0" prefHeight="20.0" prefWidth="300.0" style="-fx-text-fill: #FF00FF;" />
+            <JFXButton fx:id="fermerBtn" layoutX="56.0" layoutY="684.0" onAction="#handleFermerBtn" prefHeight="36.0" prefWidth="206.0" style="-fx-text-fill: #FFF; -fx-background-color: rgb(10,50,250);" text="Fermer">
+               <font>
+                  <Font name="SansSerif Bold" size="16.0" />
+               </font>
+            </JFXButton>
             </children>
         </AnchorPane>
     </center>
