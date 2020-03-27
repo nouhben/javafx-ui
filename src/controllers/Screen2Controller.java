@@ -3,7 +3,7 @@ package controllers;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import sample.MainApp;
+import application.MainApp;
 
 public class Screen2Controller {
 
@@ -16,7 +16,6 @@ public class Screen2Controller {
     @FXML
     void handelGoToMain(ActionEvent event) {
         MainApp.getScreenController().activate("home");
-
     }
 
     @FXML

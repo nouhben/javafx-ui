@@ -1,11 +1,9 @@
-package sample;
+package application;
 
 import controllers.ScreenController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 public class MainApp extends Application {
@@ -15,7 +13,7 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) throws Exception{
         MainApp.primaryStage = primaryStage;
         try{
-            Scene main = new Scene(FXMLLoader.load(this.getClass().getResource("../screens/home.fxml")));
+            Scene main = new Scene(FXMLLoader.load(this.getClass().getResource("../screens/screen1.fxml")));
             setScreenController(main);
             primaryStage.setScene(main);
 
@@ -29,9 +27,11 @@ public class MainApp extends Application {
     private void setScreenController(Scene main){
         screenController = new ScreenController(main);
         try{
-            screenController.addScreen("home",FXMLLoader.load(this.getClass().getResource("../screens/home.fxml")));
+            screenController.addScreen("home",FXMLLoader.load(this.getClass().getResource("../screens/screen1.fxml")));
             screenController.addScreen("screen2",FXMLLoader.load(this.getClass().getResource("../screens/screen2.fxml")));
             screenController.addScreen("screen3",FXMLLoader.load(this.getClass().getResource("../screens/screen3.fxml")));
+            screenController.addScreen("ui1",FXMLLoader.load(this.getClass().getResource("../screens/ui1.fxml")));
+            screenController.addScreen("ui2",FXMLLoader.load(this.getClass().getResource("../screens/ui2.fxml")));
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/Screen2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/Screen3Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/ScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/screen2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/screen3.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/screen1.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MainAppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/META-INF/AmiraUI1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/Screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/Screen2Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/Screen3Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/Screen3Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/ScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/ScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/sample/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/sample/MainAppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/screens/home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Screen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Screen3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Screen3Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MainAppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Screen1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/home.fxml" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/MainApp.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            <state relative-caret-position="376">
+              <caret line="33" column="104" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,15 +90,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/MainAppController.java">
+        <entry file="file://$PROJECT_DIR$/src/screens/ui1.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7157#7158#0" expanded="true" />
-                <element signature="e#7180#7181#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-11" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/ui2.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1472" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/Screen1Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="252" column="55" selection-start-line="252" selection-start-column="55" selection-end-line="252" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/screen1.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -103,10 +127,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/ScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,24 +140,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/Screen3Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="270">
               <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/Screen2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            <state relative-caret-position="195">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,14 +187,17 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/screens/home.fxml" />
-        <option value="$PROJECT_DIR$/src/controllers/ScreenController.java" />
         <option value="$PROJECT_DIR$/src/screens/screen2.fxml" />
         <option value="$PROJECT_DIR$/src/screens/screen3.fxml" />
         <option value="$PROJECT_DIR$/src/sample/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/sample/MainAppController.java" />
         <option value="$PROJECT_DIR$/src/controllers/Screen3Controller.java" />
         <option value="$PROJECT_DIR$/src/controllers/Screen2Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/MainAppController.java" />
+        <option value="$PROJECT_DIR$/src/screens/home.fxml" />
+        <option value="$PROJECT_DIR$/src/screens/screen1.fxml" />
+        <option value="$PROJECT_DIR$/src/controllers/ScreenController.java" />
+        <option value="$PROJECT_DIR$/src/application/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/controllers/Screen1Controller.java" />
       </list>
     </option>
   </component>
@@ -190,8 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,24 +244,14 @@
               <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,12 +315,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="application.MainApp" />
       <module name="AmiraUI1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,18 +402,20 @@
       <workItem from="1585079181843" duration="158000" />
       <workItem from="1585082244886" duration="438000" />
       <workItem from="1585151433282" duration="1483000" />
-      <workItem from="1585153274162" duration="1305000" />
+      <workItem from="1585153274162" duration="1602000" />
+      <workItem from="1585155120138" duration="1248000" />
+      <workItem from="1585348727334" duration="400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24749000" />
+    <option name="totallyTimeSpent" value="26694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.4450727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22294022" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,7 +424,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,36 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/MainAppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7157#7158#0" expanded="true" />
-            <element signature="e#7180#7181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/home.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/screen3.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -527,30 +514,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/ScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Screen3Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="270">
           <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Screen2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="195">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/Screen1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="252" column="55" selection-start-line="252" selection-start-column="55" selection-end-line="252" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ui1.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/screen1.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ui2.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1472" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="33" column="104" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

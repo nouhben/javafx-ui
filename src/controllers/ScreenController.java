@@ -23,4 +23,8 @@ public class ScreenController {
     public void activate(String name){
         this.main.setRoot(this.screenMap.get(name));
     }
+
+    public HashMap<String, Pane> getScreenMap() {
+        return screenMap;
+    }
 }

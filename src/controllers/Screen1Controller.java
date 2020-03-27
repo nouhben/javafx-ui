@@ -1,4 +1,4 @@
-package sample;
+package controllers;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
@@ -8,12 +8,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleGroup;
+import application.MainApp;
+import javafx.scene.layout.Pane;
 
 import java.net.URL;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
-public class MainAppController implements Initializable {
+public class Screen1Controller implements Initializable {
 
     @FXML
     private JFXComboBox<String> marqueID;
@@ -23,8 +25,13 @@ public class MainAppController implements Initializable {
 
     @FXML
     private JFXButton confirmBtn;
+
     @FXML
-    private JFXButton fermerBtn;
+    private JFXButton goScreen2Btn;
+
+    @FXML
+    private JFXButton goScreen3Btn;
+
     @FXML
     private Label color1Err;
 
@@ -232,9 +239,18 @@ public class MainAppController implements Initializable {
         confirmBtn.getParent().setStyle("-fx-background-color: rgba(12,108,244,0.6)");
     }
 
+
     @FXML
-    void handleFermerBtn(ActionEvent event){
-        MainApp.getScreenController().activate("screen2");
+    void handleGoScreen2Btn(ActionEvent event) {
+        MainApp.getScreenController().getScreenMap().replace("home",(Pane)this.goScreen2Btn.getParent());
+        if (event.getSource() == this.goScreen2Btn)
+            MainApp.getScreenController().activate("ui");
+    }
+
+    @FXML
+    void handleGoScreen3Btn(ActionEvent event) {
+        if (event.getSource() == goScreen3Btn)
+            MainApp.getScreenController().activate("ui2");
     }
 
 }

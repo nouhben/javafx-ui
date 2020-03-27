@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="600.0" minHeight="-Infinity" minWidth="350.0" prefHeight="900.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="900.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane fx:id="blackPane" prefHeight="700.0" prefWidth="563.0" style="-fx-background-color: rgb(24,29,35);">
+               <children>
+                  <Label fx:id="mainTextLbl" layoutX="116.0" layoutY="59.0" prefHeight="131.0" prefWidth="352.0" text="Shaping the future of innovation through degital media and transforming ideas to reality" textFill="#c7da19" wrapText="true">
+                     <font>
+                        <Font name="SansSerif Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="imgNumberLbl" alignment="CENTER" layoutX="269.0" layoutY="224.0" opacity="0.96" prefHeight="21.0" prefWidth="24.0" text="01" textAlignment="CENTER" textFill="#dddddd">
+                     <font>
+                        <Font name="SansSerif Regular" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="293.0" layoutY="225.0" opacity="0.96" prefHeight="21.0" prefWidth="13.0" text="/3" textAlignment="CENTER" textFill="#9e9898">
+                     <font>
+                        <Font name="SansSerif Regular" size="15.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="571.0" layoutY="59.0" prefHeight="183.0" prefWidth="6.0" style="-fx-background-color: #c7da19;" />
+                  <Label fx:id="logo" alignment="CENTER" disable="true" layoutX="29.0" layoutY="16.0" prefHeight="35.0" prefWidth="50.0" text="MC" textAlignment="CENTER" textFill="#fffb16" textOverrun="LEADING_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Georgia Bold" size="25.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <Pane layoutX="217.0" layoutY="279.0" prefHeight="3.0" prefWidth="150.0" style="-fx-background-color: a6a6a6;">
+                     <children>
+                        <Pane prefHeight="3.0" prefWidth="50.0" style="-fx-background-color: #c7da19;" />
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Pane>
+                  <VBox fx:id="menuIcone" layoutX="520.0" layoutY="14.0" prefHeight="12.0" prefWidth="40.0">
+                     <children>
+                        <FlowPane prefHeight="12.0" prefWidth="40.0">
+                           <children>
+                              <Pane prefHeight="4.0" prefWidth="30.0" style="-fx-background-color: #FFF;" />
+                              <Pane layoutX="10.0" layoutY="10.0" prefHeight="4.0" prefWidth="30.0" style="-fx-background-color: #FFF;">
+                                 <FlowPane.margin>
+                                    <Insets top="4.0" />
+                                 </FlowPane.margin>
+                              </Pane>
+                              <Pane layoutX="10.0" layoutY="13.0" prefHeight="4.0" prefWidth="30.0" style="-fx-background-color: #FFF;">
+                                 <FlowPane.margin>
+                                    <Insets top="4.0" />
+                                 </FlowPane.margin>
+                              </Pane>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="4.0" right="2.0" />
+                           </VBox.margin>
+                        </FlowPane>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </VBox>
+                  <JFXButton fx:id="lastBtn" layoutX="165.0" layoutY="237.0" prefHeight="32.0" prefWidth="40.0" style="-fx-background-color: #0A0A0A;" text="&lt;" textFill="#e1e1e0">
+                     <font>
+                        <Font name="SansSerif Bold" size="27.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <JFXButton fx:id="nextBtn" layoutX="367.0" layoutY="235.0" prefHeight="32.0" prefWidth="40.0" style="-fx-background-color: #c7da19;" text="&gt;" textFill="#191919">
+                     <font>
+                        <Font name="SansSerif Bold" size="27.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+                  <AnchorPane fx:id="menuBox" layoutX="-500.0" prefHeight="900.0" prefWidth="295.0">
+                     <children>
+                        <VBox layoutY="97.0" prefHeight="549.0" prefWidth="295.0" style="-fx-display: none;" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Pane>
+            <Pane fx:id="yellowPane" prefHeight="898.0" prefWidth="574.0" style="-fx-background-color: rgb(234,215,12);">
+               <children>
+                  <ImageView fitHeight="376.0" fitWidth="397.0" layoutX="14.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../AndroidStudioProjects/i_am_rich_flutter_app/build/flutter_assets/images/plate3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="291.0" fitWidth="322.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../AndroidStudioProjects/i_am_rich_flutter_app/build/flutter_assets/images/plate6.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
