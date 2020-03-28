@@ -13,7 +13,7 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) throws Exception{
         MainApp.primaryStage = primaryStage;
         try{
-            Scene main = new Scene(FXMLLoader.load(this.getClass().getResource("../screens/screen1.fxml")));
+            Scene main = new Scene(FXMLLoader.load(this.getClass().getResource("../screens/home_large.fxml")));
             setScreenController(main);
             primaryStage.setScene(main);
 
@@ -27,11 +27,11 @@ public class MainApp extends Application {
     private void setScreenController(Scene main){
         screenController = new ScreenController(main);
         try{
-            screenController.addScreen("home",FXMLLoader.load(this.getClass().getResource("../screens/screen1.fxml")));
+            screenController.addScreen("home",FXMLLoader.load(this.getClass().getResource("../screens/home_large.fxml")));
             screenController.addScreen("screen2",FXMLLoader.load(this.getClass().getResource("../screens/screen2.fxml")));
             screenController.addScreen("screen3",FXMLLoader.load(this.getClass().getResource("../screens/screen3.fxml")));
-            screenController.addScreen("ui1",FXMLLoader.load(this.getClass().getResource("../screens/ui1.fxml")));
-            screenController.addScreen("ui2",FXMLLoader.load(this.getClass().getResource("../screens/ui2.fxml")));
+            //screenController.addScreen("ui1",FXMLLoader.load(this.getClass().getResource("../screens/home_large.fxml")));
+            //screenController.addScreen("ui2",FXMLLoader.load(this.getClass().getResource("../screens/home_mobile.fxml")));
         }catch (Exception e){
             e.printStackTrace();
         }

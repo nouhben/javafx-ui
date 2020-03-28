@@ -12,11 +12,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="600.0" minHeight="-Infinity" minWidth="350.0" prefHeight="900.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="600.0" minHeight="-Infinity" minWidth="350.0" prefHeight="810.0" prefWidth="543.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox prefHeight="900.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Pane fx:id="blackPane" prefHeight="700.0" prefWidth="563.0" style="-fx-background-color: rgb(24,29,35);">
+            <Pane fx:id="blackPane" prefHeight="700.0" prefWidth="543.0" style="-fx-background-color: rgb(24,29,35);">
                <children>
                   <Label fx:id="mainTextLbl" layoutX="116.0" layoutY="59.0" prefHeight="131.0" prefWidth="352.0" text="Shaping the future of innovation through degital media and transforming ideas to reality" textFill="#c7da19" wrapText="true">
                      <font>
@@ -33,7 +33,6 @@
                         <Font name="SansSerif Regular" size="15.0" />
                      </font>
                   </Label>
-                  <Pane layoutX="571.0" layoutY="59.0" prefHeight="183.0" prefWidth="6.0" style="-fx-background-color: #c7da19;" />
                   <Label fx:id="logo" alignment="CENTER" disable="true" layoutX="29.0" layoutY="16.0" prefHeight="35.0" prefWidth="50.0" text="MC" textAlignment="CENTER" textFill="#fffb16" textOverrun="LEADING_WORD_ELLIPSIS">
                      <font>
                         <Font name="Georgia Bold" size="25.0" />
@@ -50,7 +49,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Pane>
-                  <VBox fx:id="menuIcone" layoutX="520.0" layoutY="14.0" prefHeight="12.0" prefWidth="40.0">
+                  <VBox fx:id="menuIcone" layoutX="503.0" layoutY="6.0" prefHeight="12.0" prefWidth="40.0">
                      <children>
                         <FlowPane prefHeight="12.0" prefWidth="40.0">
                            <children>
@@ -98,21 +97,22 @@
                   </AnchorPane>
                </children>
             </Pane>
-            <Pane fx:id="yellowPane" prefHeight="898.0" prefWidth="574.0" style="-fx-background-color: rgb(234,215,12);">
+            <Pane fx:id="yellowPane" prefHeight="898.0" prefWidth="543.0" style="-fx-background-color: rgb(234,215,12);">
                <children>
-                  <ImageView fitHeight="376.0" fitWidth="397.0" layoutX="14.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="316.0" fitWidth="305.0" layoutX="24.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../AndroidStudioProjects/i_am_rich_flutter_app/build/flutter_assets/images/plate3.png" />
+                        <Image url="@../../resources/images/plate5.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="291.0" fitWidth="322.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="291.0" fitWidth="275.0" layoutX="268.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../AndroidStudioProjects/i_am_rich_flutter_app/build/flutter_assets/images/plate6.png" />
+                        <Image url="@../../resources/images/plate1.png" />
                      </image>
                   </ImageView>
                </children>
             </Pane>
          </children>
       </VBox>
+      <Pane layoutX="536.0" layoutY="116.0" prefHeight="183.0" prefWidth="13.0" style="-fx-background-color: #c7da19;" />
    </children>
 </AnchorPane>
