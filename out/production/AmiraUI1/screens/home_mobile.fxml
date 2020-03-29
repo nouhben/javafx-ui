@@ -33,7 +33,6 @@
                         <Font name="SansSerif Regular" size="15.0" />
                      </font>
                   </Label>
-                  <Pane layoutX="571.0" layoutY="59.0" prefHeight="183.0" prefWidth="6.0" style="-fx-background-color: #c7da19;" />
                   <Label fx:id="logo" alignment="CENTER" disable="true" layoutX="29.0" layoutY="16.0" prefHeight="35.0" prefWidth="50.0" text="MC" textAlignment="CENTER" textFill="#fffb16" textOverrun="LEADING_WORD_ELLIPSIS">
                      <font>
                         <Font name="Georgia Bold" size="25.0" />
@@ -114,5 +113,6 @@
             </Pane>
          </children>
       </VBox>
+      <Pane layoutX="536.0" layoutY="116.0" prefHeight="183.0" prefWidth="13.0" style="-fx-background-color: #c7da19;" />
    </children>
 </AnchorPane>

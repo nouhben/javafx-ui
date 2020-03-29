@@ -4,7 +4,9 @@ import controllers.ScreenController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.TableView;
 import javafx.stage.Stage;
+import model.Person;
 
 public class MainApp extends Application {
     private static Stage primaryStage;
@@ -14,6 +16,7 @@ public class MainApp extends Application {
         MainApp.primaryStage = primaryStage;
         try{
             Scene main = new Scene(FXMLLoader.load(this.getClass().getResource("../screens/home_large.fxml")));
+
             setScreenController(main);
             primaryStage.setScene(main);
 
