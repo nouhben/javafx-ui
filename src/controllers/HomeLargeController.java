@@ -70,11 +70,12 @@ public class HomeLargeController implements Initializable {
     private static HashMap<String, Image> images;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        contactBtn.setOpacity(0);
         _loadImages();
         this.imgViewFirst.setImage(firstImg);
         this.imgViewSecond.setImage(secondImg);
-
         nextBtn.setOnAction(event -> {
+            contactBtn.setOpacity(1);
             int img1 = Integer.parseInt(Character.toString(this.imgViewFirst.getImage().getUrl().charAt(this.imgViewFirst.getImage().getUrl().length() - 5)));
             int img2 = Integer.parseInt(Character.toString(this.imgViewSecond.getImage().getUrl().charAt(this.imgViewSecond.getImage().getUrl().length() - 5)));
             System.out.println(img1+" --- "+img2);

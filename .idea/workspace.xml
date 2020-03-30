@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/HomeLargeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/application/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/application/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/Screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/Screen2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/screens/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/screens/screen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/screens/ui1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/screens/ui2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Screen2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/home_large.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/home_large.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/screen2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/HomeLargeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/HomeLargeController.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/HomeLargeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+            <state relative-caret-position="66">
+              <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -239,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,8 +288,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,18 +471,18 @@
       <workItem from="1585503727087" duration="396000" />
       <workItem from="1585505536059" duration="1766000" />
       <workItem from="1585507353005" duration="1775000" />
-      <workItem from="1585509171865" duration="192000" />
+      <workItem from="1585509171865" duration="869000" />
+      <workItem from="1585519147390" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38538000" />
+    <option name="totallyTimeSpent" value="39458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2673667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2714055" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -676,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/HomeLargeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+        <state relative-caret-position="66">
+          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
