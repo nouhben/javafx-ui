@@ -66,11 +66,18 @@ public class HomeLargeController implements Initializable {
 
     private Image firstImg;
     private Image secondImg;
-
+    private ImagesController ic1 = new ImagesController();
+    private ImagesController ic2 = new ImagesController();
     private static HashMap<String, Image> images;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        contactBtn.setOpacity(0);
+        ic1.setCurrentImagePath(firstImg.getUrl());
+        ic2.setCurrentImagePath(secondImg.getUrl());
+
+        imgViewSecond.imageProperty().bind(
+                ic1.currentImagePathProperty().get();
+        );
+
         _loadImages();
         this.imgViewFirst.setImage(firstImg);
         this.imgViewSecond.setImage(secondImg);
