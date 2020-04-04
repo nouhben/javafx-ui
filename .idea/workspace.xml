@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/HomeLargeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="573">
+              <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#_loadImage#0;class#HomeLargeController#0" />
@@ -183,6 +183,12 @@
               <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,12 +387,12 @@
       <workItem from="1585765798592" duration="1187000" />
       <workItem from="1585865155631" duration="764000" />
       <workItem from="1585967688824" duration="19000" />
-      <workItem from="1586023533709" duration="6439000" />
+      <workItem from="1586023533709" duration="7903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47914000" />
+    <option name="totallyTimeSpent" value="49378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
@@ -582,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/HomeLargeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="573">
+          <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#_loadImage#0;class#HomeLargeController#0" />

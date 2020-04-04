@@ -80,6 +80,8 @@ public class HomeLargeController implements Initializable {
         imgViewFirst.imageProperty().bind(Bindings.createObjectBinding(() -> _loadImage("plate"+ imageNameProperty.get()+".png"),
                 imageNameProperty));
 
+        //bind the progress bar width to the images number
+        imgIndicatorNumerPane.prefWidthProperty().bind(imgViewFirst.fitWidthProperty());
     }
 
     private Image _loadImage(String name){

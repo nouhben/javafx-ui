@@ -53,7 +53,7 @@
                </Label>
                <Pane fx:id="imgIndicatorPane" layoutX="169.0" layoutY="602.0" prefHeight="3.0" prefWidth="180.0" style="-fx-background-color: a6a6a6;">
                   <children>
-                     <Pane fx:id="imgIndicatorNumerPane" prefHeight="3.0" prefWidth="30.0" style="-fx-background-color: #c7da19;" />
+                     <Pane fx:id="imgIndicatorNumerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #c7da19;" />
                   </children>
                   <cursor>
                      <Cursor fx:constant="HAND" />
