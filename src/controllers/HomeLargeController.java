@@ -64,7 +64,7 @@ public class HomeLargeController implements Initializable {
     private JFXButton contactBtn;
 
 
-    private IntegerProperty imgNameProperty = new SimpleIntegerProperty(0);
+    IntegerProperty intValue = new SimpleIntegerProperty();
     private List<Image> images  = Arrays.asList(
             _loadImage("plate1.png"),
             _loadImage("plate2.png"),
@@ -81,23 +81,15 @@ public class HomeLargeController implements Initializable {
         nextBtn.setOnAction(event -> {
             //generate a random number
             Random random = new Random();
-            int x = random.nextInt(7);
-           // imgNameProperty.setValue(x);
-            //change the name of the image
-            //this.imgNameProperty.setValue("plate"+x+".png");
+            int x = random.nextInt(6);
             System.out.println(images.get(x).getUrl());
+            intValue.set(x);
 
         });
         //bind the image view with the image name
-    imgViewFirst.imageProperty().bind(
-            Bindings.createObjectBinding(
-                    ()->
-                        images.get(
-                                imgNameProperty.getValue()
-                        )
 
-            )
-    );
+        imgViewFirst.imageProperty().bind(Bindings.createObjectBinding(() -> images.get(intValue.getValue()),
+                intValue));
     }
 
     private Image _loadImage(String name){
