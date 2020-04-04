@@ -3,8 +3,6 @@ import com.jfoenix.controls.JFXButton;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
@@ -20,9 +18,6 @@ public class HomeLargeController implements Initializable {
 
     @FXML
     private Pane yellowPane;
-
-    @FXML
-    private ImageView imgViewSecond;
 
     @FXML
     private ImageView imgViewFirst;
@@ -64,32 +59,27 @@ public class HomeLargeController implements Initializable {
     private JFXButton contactBtn;
 
 
-    IntegerProperty intValue = new SimpleIntegerProperty();
-    private List<Image> images  = Arrays.asList(
-            _loadImage("plate1.png"),
-            _loadImage("plate2.png"),
-            _loadImage("plate3.png"),
-            _loadImage("plate4.png"),
-            _loadImage("plate5.png"),
-            _loadImage("plate6.png")
+    private IntegerProperty imageNameProperty = new SimpleIntegerProperty(1);
 
-            );
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //_loadImage();
         nextBtn.setOnAction(event -> {
             //generate a random number
             Random random = new Random();
-            int x = random.nextInt(6);
-            System.out.println(images.get(x).getUrl());
-            intValue.set(x);
-
+            int x = random.nextInt(6) + 1;
+            if(x == imageNameProperty.get()){
+                x = (x) % 6 + 1;
+            }
+            System.out.println(x);
+            //change them at once
+            imageNameProperty.set(x);
         });
-        //bind the image view with the image name
 
-        imgViewFirst.imageProperty().bind(Bindings.createObjectBinding(() -> images.get(intValue.getValue()),
-                intValue));
+        //bind the image view with the image name
+        imgViewFirst.imageProperty().bind(Bindings.createObjectBinding(() -> _loadImage("plate"+ imageNameProperty.get()+".png"),
+                imageNameProperty));
+
     }
 
     private Image _loadImage(String name){
