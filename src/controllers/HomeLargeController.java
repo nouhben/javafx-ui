@@ -1,7 +1,10 @@
 package controllers;
-
 import com.jfoenix.controls.JFXButton;
-import javafx.beans.binding.Binding;
+import javafx.beans.binding.Bindings;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
@@ -10,12 +13,8 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class HomeLargeController implements Initializable {
 
@@ -64,73 +63,52 @@ public class HomeLargeController implements Initializable {
     @FXML
     private JFXButton contactBtn;
 
-    private Image firstImg;
-    private Image secondImg;
-    private ImagesController ic1 = new ImagesController();
-    private ImagesController ic2 = new ImagesController();
-    private static HashMap<String, Image> images;
+
+    private IntegerProperty imgNameProperty = new SimpleIntegerProperty(0);
+    private List<Image> images  = Arrays.asList(
+            _loadImage("plate1.png"),
+            _loadImage("plate2.png"),
+            _loadImage("plate3.png"),
+            _loadImage("plate4.png"),
+            _loadImage("plate5.png"),
+            _loadImage("plate6.png")
+
+            );
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        ic1.setCurrentImagePath(firstImg.getUrl());
-        ic2.setCurrentImagePath(secondImg.getUrl());
-
-        imgViewSecond.imageProperty().bind(
-                ic1.currentImagePathProperty().get();
-        );
-
-        _loadImages();
-        this.imgViewFirst.setImage(firstImg);
-        this.imgViewSecond.setImage(secondImg);
+        //_loadImage();
         nextBtn.setOnAction(event -> {
-            contactBtn.setOpacity(1);
-            int img1 = Integer.parseInt(Character.toString(this.imgViewFirst.getImage().getUrl().charAt(this.imgViewFirst.getImage().getUrl().length() - 5)));
-            int img2 = Integer.parseInt(Character.toString(this.imgViewSecond.getImage().getUrl().charAt(this.imgViewSecond.getImage().getUrl().length() - 5)));
-            System.out.println(img1+" --- "+img2);
-
-           img1++;
-           img2++;
-           if (img1 > 6)
-               img1 = 1;
-           if (img2>6)
-               img2 = 1;
-            System.out.println(img1+" --- "+img2);
-
-            _playNextImage("plate"+img1+".png","plate"+img2+".png");
+            //generate a random number
+            Random random = new Random();
+            int x = random.nextInt(7);
+           // imgNameProperty.setValue(x);
+            //change the name of the image
+            //this.imgNameProperty.setValue("plate"+x+".png");
+            System.out.println(images.get(x).getUrl());
 
         });
+        //bind the image view with the image name
+    imgViewFirst.imageProperty().bind(
+            Bindings.createObjectBinding(
+                    ()->
+                        images.get(
+                                imgNameProperty.getValue()
+                        )
+
+            )
+    );
     }
 
-    private void _loadImages(){
-        images = new HashMap<>();
-        File f;
-        try{
-            f = new File("/Users/OpenMindes/Dev/javafx/AmiraUI1/resources/images/plate1.png");
-            images.put("plate1",new Image(f.toURI().toString()));
+    private Image _loadImage(String name){
+        try {
+            File f;
+            f = new File("/Users/OpenMindes/Dev/javafx/AmiraUI1/resources/images/"+name);
+            return new Image(f.toURI().toString());
 
-            f = new File("/Users/OpenMindes/Dev/javafx/AmiraUI1/resources/images/plate2.png");
-            images.put("plate2",new Image(f.toURI().toString()));
-
-            f = new File("/Users/OpenMindes/Dev/javafx/AmiraUI1/resources/images/plate3.png");
-            images.put("plate3",new Image(f.toURI().toString()));
-
-            f = new File("/Users/OpenMindes/Dev/javafx/AmiraUI1/resources/images/plate4.png");
-            images.put("plate4",new Image(f.toURI().toString()));
-
-            f = new File("/Users/OpenMindes/Dev/javafx/AmiraUI1/resources/images/plate5.png");
-            images.put("plate5",new Image(f.toURI().toString()));
-
-            f = new File("/Users/OpenMindes/Dev/javafx/AmiraUI1/resources/images/plate5.png");
-            images.put("plate6",new Image(f.toURI().toString()));
-
-            //init
-            firstImg = images.get("plate1");
-            secondImg = images.get("plate2");
         }catch (Exception e){
             e.printStackTrace();
+            return null;
         }
-    }
-    private void _playNextImage(String img1,String img2){
-        firstImg = images.get(img1);
-        secondImg = images.get(img2);
     }
 }

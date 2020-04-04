@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/ImagesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/HomeLargeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/HomeLargeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/ScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/controllers/ScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AmiraUI1/screens/home_large.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AmiraUI1/screens/home_large.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/HomeLargeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/HomeLargeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ImagesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ScreenController.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,82 +67,24 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/home_large.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="257" selection-start-line="12" selection-start-column="257" selection-end-line="12" selection-end-column="257" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/HomeLargeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="66" column="17" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="398">
+              <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#_loadImages#0;class#HomeLargeController#0" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controllers/ImagesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="24" column="14" selection-start-line="24" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/home_mobile.fxml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/Screen1Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3585">
-              <caret line="252" column="55" selection-start-line="252" selection-start-column="55" selection-end-line="252" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/screen1.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/ScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/Screen3Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            <state relative-caret-position="405">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,10 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/Screen2Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/application/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="175">
+              <caret line="17" column="101" selection-start-line="17" selection-start-column="101" selection-end-line="17" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,13 +105,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/screen2.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/screens/home_large.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="257" selection-start-line="12" selection-start-column="257" selection-end-line="12" selection-end-column="257" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -199,21 +146,22 @@
         <option value="$PROJECT_DIR$/src/sample/MainAppController.java" />
         <option value="$PROJECT_DIR$/src/screens/home.fxml" />
         <option value="$PROJECT_DIR$/src/screens/screen1.fxml" />
-        <option value="$PROJECT_DIR$/src/controllers/ScreenController.java" />
         <option value="$PROJECT_DIR$/src/controllers/Screen1Controller.java" />
         <option value="$PROJECT_DIR$/src/screens/ui1.fxml" />
         <option value="$PROJECT_DIR$/src/model/TestModel.java" />
         <option value="$PROJECT_DIR$/src/model/Person.java" />
         <option value="$PROJECT_DIR$/src/controllers/Screen2Controller.java" />
-        <option value="$PROJECT_DIR$/src/screens/home_large.fxml" />
         <option value="$PROJECT_DIR$/src/application/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/controllers/HomeLargeController.java" />
         <option value="$PROJECT_DIR$/src/controllers/ImagesController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/ScreenController.java" />
+        <option value="$PROJECT_DIR$/src/screens/home_large.fxml" />
+        <option value="$PROJECT_DIR$/src/controllers/HomeLargeController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1462" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -228,8 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,53 +186,14 @@
             <path>
               <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmiraUI1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmiraUI1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,6 +208,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -473,18 +381,21 @@
       <workItem from="1585509171865" duration="869000" />
       <workItem from="1585519147390" duration="243000" />
       <workItem from="1585544205048" duration="47000" />
-      <workItem from="1585765798592" duration="755000" />
+      <workItem from="1585765798592" duration="1187000" />
+      <workItem from="1585865155631" duration="764000" />
+      <workItem from="1585967688824" duration="19000" />
+      <workItem from="1586023533709" duration="4367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40260000" />
+    <option name="totallyTimeSpent" value="45842000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.27948305" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18690096" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,7 +404,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23505573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,12 +449,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Bindig_Properties/src/sample/view/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="140" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../Bindig_Properties/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -563,12 +474,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/screen3.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/TestModel.java" />
     <entry file="file://$PROJECT_DIR$/src/model/Person.java">
@@ -590,27 +501,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="101" selection-start-line="17" selection-start-column="101" selection-end-line="17" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/home_large.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="257" selection-start-line="12" selection-start-column="257" selection-end-line="12" selection-end-column="257" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/home_mobile.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Screen1Controller.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -620,27 +513,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/screen1.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/ScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/Screen3Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="315">
           <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -659,28 +541,55 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/screen2.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/HomeLargeController.java">
+    <entry file="file://$PROJECT_DIR$/src/controllers/ImagesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="24" column="14" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/ScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#_loadImages#0;class#HomeLargeController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/ImagesController.java">
+    <entry file="file://$PROJECT_DIR$/src/application/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="24" column="14" selection-start-line="24" selection-end-line="25" />
+        <state relative-caret-position="175">
+          <caret line="17" column="101" selection-start-line="17" selection-start-column="101" selection-end-line="17" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/home_large.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="257" selection-start-line="12" selection-start-column="257" selection-end-line="12" selection-end-column="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/HomeLargeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

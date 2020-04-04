@@ -10,17 +10,21 @@ public class ScreenController {
     private Scene main;
 
     public ScreenController(Scene main){
+
         this.main = main;
     }
 
     public void addScreen(String name, Pane screen){
+
         this.screenMap.put(name,screen);
     }
 
     public void removeScreen(String name){
+
         this.screenMap.remove(name);
     }
     public void activate(String name){
+
         this.main.setRoot(this.screenMap.get(name));
     }
 
